@@ -1,0 +1,10 @@
+diff a/MCS.Test.Automation.Nunit/MCS.Test.Automation.Nunit.csproj b/MCS.Test.Automation.Nunit/MCS.Test.Automation.Nunit.csproj	(rejected hunks)
+@@ -134,7 +134,7 @@
+     <Compile Include="TestCaseDescriptionAttribute.cs" />
+     <Compile Include="TestEnvironments.cs" />
+     <Compile Include="Tests\ASTMInternalLoginTest.cs" />
+-   <Compile Include="Tests\VerifyIncorrectDataInAddMembershipTypeTest.cs" />
++    <Compile Include="Tests\VerifyIncorrectDataInAddMembershipTypeTest.cs" />
+     <Compile Include="Tests\VerifyMembershipFAQsFIFOOrderTest.cs" />
+     <Compile Include="Tests\VerifyEditandCancelMembershipFAQsTest.cs" />
+     <Compile Include="Tests\VerifyManadatoryFieldForEmptyAddUserSearchBoxTest.cs" />

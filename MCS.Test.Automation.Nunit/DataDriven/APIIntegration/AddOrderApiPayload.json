@@ -1,0 +1,98 @@
+﻿{
+    "info" :{
+    'orderdate': '2019/12/05',
+    'promominor': '',
+    'creditcard': '6677788',
+    'ordertype': 'REGULAR',
+    'webstore': 'PTP',
+    'accountnumber': '',
+    'shippingaccountnumber': '',
+    'shippingmethod': 'Standard Service',
+    'accountpartytype': 'Organization',
+    'lineitems': [
+        {
+            'linenumber': 1,
+            'orderquantity': '1',
+            'stock': 'PTPALUM2019',
+            'price': '259.00'
+        }
+    ],
+    'mcxordernumber': 'PTPPOSP09120519001',
+    'promomajor': '',
+    'shippingamount': '0.00',
+    'sites': [
+        {
+            'siteid': '',
+            'sitetype': 'billto',
+            'address': {
+                'postalcode': '15469',
+                'city': 'NORMALVILLE',
+                'streetaddress1': 'NORMALVILLE',
+                'country': 'US',
+                'stateorprovince': 'PA'
+            },
+            'contact': {
+                'contactno': '6786786789',
+                'firstname': 'Prabhakar',
+                'lastname': 'Mishra',
+                'email': 'prabhakar.mishra@test.org',
+                'organizationorcompany': 'Icreon'
+            }
+        },
+        {
+            'contact': {
+                'email': 'prabhakar.mishra@test.org',
+                'organizationorcompany': 'Icreon',
+                'lastname': 'Mishra',
+                'firstname': 'Prabhakar',
+                'contactno': '6786786789'
+            },
+            'address': {
+                'postalcode': '15469',
+                'city': 'NORMALVILLE',
+                'streetaddress1': 'NORMALVILLE',
+                'country': 'US',
+                'stateorprovince': 'PA'
+            },
+            'siteid': '',
+            'sitetype': 'shipto'
+        }
+    ],
+    'organization': {
+        'address': {
+            'postalcode': '15469',
+            'country': 'US',
+            'streetaddress1': 'NORMALVILLE',
+            'city': 'NORMALVILLE',
+            'stateorprovince': 'PA'
+        },
+        'organization': 'Icreon'
+    },
+    'cybercash': 'CHECK',
+    'shippingcode': '',
+    'tax': '46.62',
+    'grandtotal': '305.62',
+    'cardtype': 'visa',
+    'ponumber': 'none',
+    'expirydate': '2022/12/03',
+    'customers': [
+        {
+            'contact': {
+                'firstname': 'Prabhakar',
+                'contactno': '6786786789',
+                'email': 'prabhakar.mishra@test.org',
+                'lastname': 'Mishra'
+            },
+            'siteid': '',
+            'typeofcustomer': 'Employee',
+            'address': {
+                'stateorprovince': 'PA',
+                'city': 'NORMALVILLE',
+                'country': 'US',
+                'streetaddress1': 'NORMALVILLE',
+                'postalcode': '15469'
+            }
+        }
+    ]
+}
+}
