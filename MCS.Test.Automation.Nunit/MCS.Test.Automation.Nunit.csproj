@@ -143,7 +143,7 @@
   <ItemGroup>
     <Compile Include="APIProjectTestBase.cs" />
     <Compile Include="Tests\APIIntegration\HourlyWeatherReport.cs" />
-    <Compile Include="Tests\APIIntegration\CurrentWheatherAPI.cs" />
+    <Compile Include="Tests\APIIntegration\CurrentWeatherAPI.cs" />
     <Compile Include="DataDriven\CompareFiles.cs" />
     <Compile Include="DataDriven\DataDrivenHelper.cs" />
     <Compile Include="DataDriven\TestData.cs" />
