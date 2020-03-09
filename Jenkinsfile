@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                bat "\"${tool 'MsBuild'}\" MCS.Test.Automation.Nunit.csproj /p:Configuration=Release /p:Platform=\"Any CPU\" /p:ProductVersion=1.0.0.${env.BUILD_NUMBER}"
+                bat "\"${tool 'MsBuild'}\" /MCS.Test.Automation.Nunit/MCS.Test.Automation.Nunit.csproj /p:Configuration=Release /p:Platform=\"Any CPU\" /p:ProductVersion=1.0.0.${env.BUILD_NUMBER}"
             }
         }
       
