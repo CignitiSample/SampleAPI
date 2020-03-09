@@ -4,8 +4,8 @@ pipeline {
     stages {
         stage('Restore') {
             steps {
-                def slnName = "${"C:\\Program Files (x86)\\Jenkins\\workspace\\Pipeline_MSBuild\\"}${"TestFramework.sln"}.sln" 
-                def nuget = "\"${WORKSPACE}\\tools\\Nuget\\nuget.exe\""
+                set slnName = "${"C:\\Program Files (x86)\\Jenkins\\workspace\\Pipeline_MSBuild\\"}${"TestFramework.sln"}.sln" 
+                set nuget = "\"${WORKSPACE}\\tools\\Nuget\\nuget.exe\""
                 bat("${nuget} restore \"${slnName}\"")
             }
         }
