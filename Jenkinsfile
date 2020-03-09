@@ -14,12 +14,13 @@ pipeline {
                 bat "\"${tool 'MsBuild'}\" TestFramework.sln /p:Configuration=Release /p:Platform=\"Any CPU\" /p:ProductVersion=1.0.0.${env.BUILD_NUMBER}"
             }
         }
-        post {
+      
+    }
+      post {
           failure {
                  mail to: 'e005249@cigniti.com',
                  subject: "Pipeline has failed: ${currentBuild.fullDisplayName}",
                  body: "Error in ${env.BUILD_URL}"
                   }
              }
-    }
 } 
